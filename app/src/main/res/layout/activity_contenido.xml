@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    tools:context=".contenido">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="161dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="248dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289"
+        app:srcCompat="@drawable/circulo3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="186dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="248dp"
+        android:alpha="0.8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circulo3" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="500dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="524dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hamburguesa2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="sans-serif-black"
+        android:text="HAMBURGUESA PRO"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="362dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="60dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.1"
+        android:lineSpacingExtra="8dp"
+        android:text="Cada Double Quarter Pounder with Cheese incluye dos patties de 100% carne fresca de ¼ de libra*, calientes, deliciosamente jugosos y cocinados en el minuto que ordenas. Se sazonan con una pizca de sal y pimienta, y se cocinan a la perfección en nuestras planchas. Se les agregan dos rebanadas de queso derretido, cebollas en tiras y crujientes pepinillos, todo en un pan con semillas de ajonjolí. No contiene sabores o conservantes artificiales ni colorantes agregados de fuentes artificiales**. Nuestros pepinillos contienen un conservante artificial, así que no lo ordenes si no quieres."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/boton_contenido"
+        android:backgroundTint="@null"
+        android:fontFamily="sans-serif-black"
+        android:text="Comprar"
+        android:textColor="@color/color1"
+        android:textSize="30dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
